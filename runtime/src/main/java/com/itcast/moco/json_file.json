@@ -1,0 +1,19 @@
+[
+  {
+    "description":"post请求",
+    "request": {
+      "uri": "/post/with/param",
+      "method": "post",
+      "json": {
+        "name": "xiaowang",
+        "age": "20"
+      }
+    },
+      "response":{
+        "json":{
+          "text":"请求成功",
+          "statuCode":"200"
+        }
+      }
+    }
+]
